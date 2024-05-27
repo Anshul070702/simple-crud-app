@@ -1,7 +1,6 @@
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-import { Product } from "./models/products.models.js";
 const app = express();
 
 // setting middlewares
